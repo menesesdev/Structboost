@@ -1,0 +1,18 @@
+:root {
+    /* Definição de variáveis de cores */
+    --pink-10: #F67ACB;
+    --pink-20: #CF62A9;
+    --pink-30: #9D457F;
+
+    --gray-900: #1A202C;
+    --gray-800: #2D3748;
+    --gray-700: #4A5568;
+    --gray-600: #718096;
+    --gray-500: #A0AEC0;
+    --gray-400: #CBD5E0;
+    --gray-300: #E2E8F0;
+    --gray-200: #EDF2F7;
+    --gray-100: #F7FAFC;
+
+    --white: #FFFFFF;
+}

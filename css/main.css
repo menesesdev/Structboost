@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid var(--pink-10);
+    padding: 1.6rem 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+header ul li a {
+    color: var(--white);
+    font-size: 1.6rem;
+    text-decoration: none;
+    transition: ease 0.2s;
+
+}
+
+header ul li a:hover {
+    font-weight: 500;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/****************************************************/
+
+.section-hero {
+    padding-top: 10.0rem;
+    width: 100%;
+    position: relative;
+    height: 106.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-hero-texto {
+    max-width: 80rem;
+    text-align: center;
+    word-break: break-word;
+    margin: 0 auto;
+    margin-bottom: 6.4rem;
+}
+
+.section-hero .btn-primary {
+    margin-top: 5rem;
+}

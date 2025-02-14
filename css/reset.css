@@ -1,0 +1,37 @@
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: Antialiasing;
+    font-family: "Sora", sans-serif;
+}
+
+/* Configuração da fonte base */
+html {
+    font-size: 62.5%;
+    background-color: var(--gray-900);
+}
+
+/* Estilo para imagens */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Estilo para links */
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Estilo para listas */
+ul {
+    list-style-type: none;
+}
+
+/* Estilo para botões */
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}

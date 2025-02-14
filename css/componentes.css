@@ -1,0 +1,133 @@
+/* Botão padrão */
+.btn-primary {
+    font-size: 1.6rem;
+    padding: 1.4rem 2.6rem;
+    background-color: var(--pink-10);
+    color: var(--gray-900);
+    transition: background-color 0.3s ease;
+    border-radius: 0.4rem;
+}
+
+.btn-primary:hover {
+    background-color: var(--pink-20);
+    border-radius: 0.4rem;
+}
+
+
+/* Botão padrão LARGO */
+.btn-primary.lg {
+    font-size: 1.8rem;
+    padding: 2.2rem 2.4rem;
+    background-color: var(--pink-10);
+    color: var(--gray-900);
+    transition: background-color 0.3s ease;
+    border-radius: 0.4rem;
+
+}
+
+.btn-primary.lg:hover {
+    background-color: var(--pink-20);
+    border-radius: 0.4rem;
+}
+
+
+/* Botão padrão BRANCO */
+.btn-primary.white {
+    font-size: 1.6rem;
+    padding: 1.4rem 2.6rem;
+    background-color: var(--gray-300);
+    color: var(--gray-900);
+    transition: background-color 0.3s ease;
+    border-radius: 0.4rem;
+}
+
+.btn-primary.white:hover {
+    background-color: var(--white);
+    border-radius: 0.4rem;
+}
+
+
+/* Botão padrão BRANCO LARGO */
+.btn-primary.white.lg {
+    font-size: 1.8rem;
+    padding: 2.2rem 2.4rem;
+    background-color: var(--gray-300);
+    color: var(--gray-900);
+    transition: background-color 0.3s ease;
+    border-radius: 0.4rem;
+}
+
+.btn-primary.white.lg:hover {
+    background-color: var(--white);
+    border-radius: 0.4rem;
+}
+
+/* Card padrão */
+.item-digital {
+    flex: 1;
+    max-width: 38.4rem;
+    word-break: break-word;
+}
+
+.item-digital .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.0rem;
+    height: 4.0rem;
+    margin-bottom: 1.6rem;
+}
+
+.item-digital .titulo {
+    margin-bottom: 0.8rem;
+}
+
+.item-digital p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--gray-500);
+}
+
+/* Card com imagem */
+
+.card-com-imagem {
+    background-color: var(--gray-500);
+    border-radius: 0.5rem;
+    padding: 2.4rem;
+}
+
+.card-com-imagem img {
+    width: auto;
+    /* Permite que a imagem mantenha sua proporção */
+    max-width: 80%;
+    /* Define a largura máxima da imagem */
+    display: block;
+    margin: 0 auto;
+    /* Centraliza a imagem horizontalmente */
+    padding: 0 10%;
+    /* Adiciona padding nas laterais da imagem */
+    margin-bottom: 1.6rem;
+}
+
+.card-com-imagem span {
+    display: inline-block;
+    color: var(--gray-900);
+    border: 0.1rem solid var(--gray-300);
+    padding: 0.4rem 0.8rem;
+    border-radius: 1.0rem;
+    background-color: var(--gray-300);
+    margin-bottom: 4.5rem;
+}
+
+.card-com-imagem h6 {
+    margin-top: 1.6rem;
+    color: var(--gray-900);
+}
+
+.card-com-imagem p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--gray-900);
+    word-break: break-word;
+    max-width: 38.4rem;
+}

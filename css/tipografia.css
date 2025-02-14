@@ -1,0 +1,44 @@
+/* Estilo para títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: var(--gray-900);
+    line-height: 1.2;
+    color: var(--white);
+}
+
+h1 {
+    font-size: 5.6rem;
+}
+
+h2 {
+    font-size: 4.8rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+h5 {
+    font-size: 2.4rem;
+}
+
+h6 {
+    font-size: 2.2rem;
+}
+
+/* Estilo para o texto corrido */
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: var(--white);
+}
