@@ -1,3 +1,5 @@
+/************************ HEADER NAV ****************************/
+
 header {
     display: flex;
     align-items: center;
@@ -38,7 +40,7 @@ header ul li a:hover {
     transform: scale(1.1);
 }
 
-/****************************************************/
+/************************ SECTION HERO ****************************/
 
 .section-hero {
     padding-top: 2rem;
@@ -73,8 +75,10 @@ header ul li a:hover {
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    padding: 0 2rem; /* Adiciona padding nas laterais do contêiner */
-    box-sizing: border-box; /* Inclui padding na largura total */
+    padding: 0 2rem;
+    /* Adiciona padding nas laterais do contêiner */
+    box-sizing: border-box;
+    /* Inclui padding na largura total */
 }
 
 .section-hero-ilustracao {
@@ -95,4 +99,25 @@ header ul li a:hover {
     left: 0;
     z-index: -1;
     /* Garante que o retângulo rosa fique abaixo da imagem */
+}
+
+/************************ SECTION IMPACTO DIGITAL ****************************/
+
+.s-digital span {
+    color: var(--pink-10);
+}
+
+.s-digital h3 {
+    text-align: center;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+.s-digital li {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    padding-bottom: 5rem;
+    border-bottom: solid 1px var(--pink-10);
 }
