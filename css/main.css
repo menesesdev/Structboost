@@ -166,3 +166,18 @@ header ul li a:hover {
 .arte-do-front-end .grade-posts .card-com-imagem:last-child {
     grid-column: span 2;
 }
+
+/************************ SECTION NEWSLETTER ****************************/
+
+.section-newsletter {
+    padding: 10rem 0;
+    background-color: var(--pink-10);
+    text-align: center;
+}
+
+.section-newsletter p {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 80rem;
+    margin-bottom: 3rem;
+}
