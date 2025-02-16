@@ -121,3 +121,48 @@ header ul li a:hover {
     padding-bottom: 5rem;
     border-bottom: solid 1px var(--pink-10);
 }
+
+
+/************************ SECTION ARTE DO FRONT END ****************************/
+
+.arte-do-front-end {
+    padding: 5rem 0;
+}
+
+.arte-do-front-end h3 {
+    color: var(--pink-10);
+}
+
+.texto-titulo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.texto-titulo .esquerda {
+    max-width: 40%;
+}
+
+.texto-titulo .direita {
+    max-width: 40%;
+}
+
+.texto-titulo p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--gray-500);
+}
+
+.arte-do-front-end .grade-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.2rem;
+}
+
+.arte-do-front-end .grade-posts .card-com-imagem:first-child {
+    grid-column: span 2;
+}
+
+.arte-do-front-end .grade-posts .card-com-imagem:last-child {
+    grid-column: span 2;
+}
