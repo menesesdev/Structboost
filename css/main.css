@@ -186,11 +186,11 @@ header ul li a:hover {
 
 /************************ FOOTER ****************************/
 
-footer{
+footer {
     padding: 4.8rem 0;
 }
 
-footer .main-area{
+footer .main-area {
     display: flex;
     align-items: start;
     border-bottom: 1px solid var(--pink-10);
@@ -198,11 +198,11 @@ footer .main-area{
     justify-content: space-between;
 }
 
-footer h6{
+footer h6 {
     margin-bottom: 1.6rem;
 }
 
-footer .main-area li{
+footer .main-area li {
     max-width: 70rem;
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -213,12 +213,12 @@ footer .main-area li{
     transition: ease 0.2s;
 }
 
-footer .main-area li:hover{
+footer .main-area li:hover {
     cursor: pointer;
     color: var(--pink-10);
 }
 
-footer .main-area p{
+footer .main-area p {
     max-width: 40rem;
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -227,16 +227,31 @@ footer .main-area p{
     margin-top: 1rem;
 }
 
-footer .main-area .direita{
+footer .main-area .direita {
     flex-grow: 1;
     max-width: 75rem;
     justify-content: space-between;
     display: flex;
 }
 
-footer .footer-copy{
+footer .footer-copy {
     font-size: 1.6rem;
     line-height: 2.4rem;
     color: var(--gray-500);
     padding-top: 2.4rem;
+}
+
+
+/************************ RESPONSIVIDADE ****************************/
+
+@media(max-width:1200px) {
+
+}
+
+@media(max-width:991px) {
+
+}
+
+@media(max-width:560px) {
+    
 }
