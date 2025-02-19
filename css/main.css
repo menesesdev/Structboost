@@ -1,257 +1,279 @@
 /************************ HEADER NAV ****************************/
 
 header {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    border-bottom: 1px solid var(--pink-10);
-    padding: 1.6rem 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid var(--pink-10);
+  padding: 1.6rem 0;
 }
 
 header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header nav {
-    display: flex;
-    align-items: center;
-    gap: 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
 }
 
 header ul {
-    display: flex;
-    align-items: center;
-    gap: 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
 }
 
 header ul li a {
-    color: var(--white);
-    font-size: 1.6rem;
-    text-decoration: none;
-    transition: ease 0.2s;
-
+  color: var(--white);
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: ease 0.2s;
 }
 
 header ul li a:hover {
-    font-weight: 500;
-    cursor: pointer;
-    transform: scale(1.1);
+  font-weight: 500;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
+header .menu-mobile {
+  display: none;
+}
 /************************ SECTION HERO ****************************/
 
 .section-hero {
-    padding-top: 2rem;
-    padding-bottom: 30rem;
-    width: 100%;
-    position: relative;
-    min-height: 50rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
+  padding-top: 2rem;
+  padding-bottom: 30rem;
+  width: 100%;
+  position: relative;
+  min-height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .section-hero-texto {
-    max-width: 80rem;
-    text-align: center;
-    word-break: break-word;
-    margin: 0 auto;
-    margin-bottom: 10rem;
-    position: relative;
-    z-index: 1;
+  max-width: 80rem;
+  text-align: center;
+  word-break: break-word;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  position: relative;
+  z-index: 1;
 }
 
 .section-hero .btn-primary {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .section-hero-ilustracao-container {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    padding: 0 2rem;
-    /* Adiciona padding nas laterais do contêiner */
-    box-sizing: border-box;
-    /* Inclui padding na largura total */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 0 2rem;
+  /* Adiciona padding nas laterais do contêiner */
+  box-sizing: border-box;
+  /* Inclui padding na largura total */
 }
 
 .section-hero-ilustracao {
-    width: 100%;
-    max-height: 60vh;
-    height: auto;
-    object-fit: contain;
-    z-index: 0;
+  width: 100%;
+  max-height: 60vh;
+  height: auto;
+  object-fit: contain;
+  z-index: 0;
 }
 
 .section-hero::after {
-    width: 100%;
-    height: 15rem;
-    background: var(--pink-10);
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    /* Garante que o retângulo rosa fique abaixo da imagem */
+  width: 100%;
+  height: 15rem;
+  background: var(--pink-10);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  /* Garante que o retângulo rosa fique abaixo da imagem */
 }
 
 /************************ SECTION IMPACTO DIGITAL ****************************/
 
 .s-digital span {
-    color: var(--pink-10);
+  color: var(--pink-10);
 }
 
 .s-digital h3 {
-    text-align: center;
-    padding: 4rem 0;
-    margin: 0 auto;
+  text-align: center;
+  padding: 4rem 0;
+  margin: 0 auto;
 }
 
 .s-digital li {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    gap: 10rem;
-    padding-bottom: 5rem;
-    border-bottom: solid 1px var(--pink-10);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  padding-bottom: 5rem;
+  border-bottom: solid 1px var(--pink-10);
 }
-
 
 /************************ SECTION ARTE DO FRONT END ****************************/
 
 .arte-do-front-end {
-    padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 .arte-do-front-end h3 {
-    color: var(--pink-10);
+  color: var(--pink-10);
 }
 
 .texto-titulo {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .texto-titulo .esquerda {
-    max-width: 40%;
+  max-width: 40%;
 }
 
 .texto-titulo .direita {
-    max-width: 40%;
+  max-width: 40%;
 }
 
 .texto-titulo p {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    color: var(--gray-500);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--gray-500);
 }
 
 .arte-do-front-end .grade-posts {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
 }
 
 .arte-do-front-end .grade-posts .card-com-imagem:first-child {
-    grid-column: span 2;
+  grid-column: span 2;
 }
 
 .arte-do-front-end .grade-posts .card-com-imagem:last-child {
-    grid-column: span 2;
+  grid-column: span 2;
 }
 
 /************************ SECTION NEWSLETTER ****************************/
 
 .section-newsletter {
-    padding: 10rem 0;
-    background-color: var(--pink-10);
-    text-align: center;
+  padding: 10rem 0;
+  background-color: var(--pink-10);
+  text-align: center;
 }
 
 .section-newsletter p {
-    margin: 0 auto;
+  margin: 0 auto;
 
-    text-align: center;
-    max-width: 80rem;
-    margin-bottom: 3rem;
+  text-align: center;
+  max-width: 80rem;
+  margin-bottom: 3rem;
 }
-
 
 /************************ FOOTER ****************************/
 
 footer {
-    padding: 4.8rem 0;
+  padding: 4.8rem 0;
 }
 
 footer .main-area {
-    display: flex;
-    align-items: start;
-    border-bottom: 1px solid var(--pink-10);
-    padding-bottom: 2.4rem;
-    justify-content: space-between;
+  display: flex;
+  align-items: start;
+  border-bottom: 1px solid var(--pink-10);
+  padding-bottom: 2.4rem;
+  justify-content: space-between;
 }
 
 footer h6 {
-    margin-bottom: 1.6rem;
+  margin-bottom: 1.6rem;
 }
 
 footer .main-area li {
-    max-width: 70rem;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    color: var(--gray-500);
-    display: flex;
-    gap: 1.6rem;
-    margin-bottom: 1.2rem;
-    transition: ease 0.2s;
+  max-width: 70rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--gray-500);
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 1.2rem;
+  transition: ease 0.2s;
 }
 
 footer .main-area li:hover {
-    cursor: pointer;
-    color: var(--pink-10);
+  cursor: pointer;
+  color: var(--pink-10);
 }
 
 footer .main-area p {
-    max-width: 40rem;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    color: var(--gray-500);
-    word-break: break-word;
-    margin-top: 1rem;
+  max-width: 40rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--gray-500);
+  word-break: break-word;
+  margin-top: 1rem;
 }
 
 footer .main-area .direita {
-    flex-grow: 1;
-    max-width: 75rem;
-    justify-content: space-between;
-    display: flex;
+  flex-grow: 1;
+  max-width: 75rem;
+  justify-content: space-between;
+  display: flex;
 }
 
 footer .footer-copy {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    color: var(--gray-500);
-    padding-top: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--gray-500);
+  padding-top: 2.4rem;
 }
-
 
 /************************ RESPONSIVIDADE ****************************/
 
-@media(max-width:1200px) {
-
+@media (max-width: 1200px) {
 }
 
-@media(max-width:991px) {
-
+@media (max-width: 991px) {
 }
 
-@media(max-width:560px) {
-    
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+  header .menu-mobile {
+    display: block;
+  }
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .btn-primary {
+    margin-left: auto; /* Empurra o botão para a direita */
+    margin-right: 2rem;
+  }
+
+  header .container > a {
+    margin-right: auto; /* Empurra a logo para a esquerda */
+  }
+}
+
+@media (max-width: 560px) {
+  header .logo {
+    max-width: 180px;
+  }
 }
